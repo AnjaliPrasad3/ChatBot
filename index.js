@@ -5,7 +5,7 @@ async function run() {
    let browser;
    try {
     browser = await puppeteer.connect({
-        browserWSEndpoint: `wss://brd-customer-hl\_9abdd8da-zone-scrap:kjnov0ffu7ox@brd.superproxy.io:9222`
+        browserWSEndpoint: `wss:<UserName>:<Password>@brd.superproxy.io:9222`
     });
 
     const page = await browser.newPage();
